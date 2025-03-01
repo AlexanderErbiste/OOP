@@ -23,8 +23,23 @@ class Imoveis{
         function __get($name): mixed{
             return $this->$name;
         }
- 
     }
+ 
+//Herança
+class Rural extends Imoveis{
+
+    //sobrecarga
+    function __construct(){
+
+    }
+
+    }
+
+    $Imovel02 = new rural();
+    $Imovel02->tipoImovel = "sadas";
+    echo $Imovel02->tipoImovel;
+
+
 
     $Imovel01 = new Imoveis("Comercial",arg02:1000000.00,arg03:"Zona Norte",arg04:1000,arg05:"Espaço bem localizado em avenida");
     //$Imovel01->regiao = "Zona Norte";

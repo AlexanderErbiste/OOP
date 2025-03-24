@@ -40,9 +40,9 @@ class Livro {
 }
 
 
-$livro1 = new Livro("Código Limpo", "Robert C. Martin", 2009, 08.09); 
+$livro1 = new Livro("Código Limpo", "Robert C. Martin", 2009, 89.90); 
 
-$livro2 = new Livro("Entendendo Algoritmos", "Aditya Y. Bhargava", 2017, 24.04); 
+$livro2 = new Livro("Entendendo Algoritmos", "Aditya Y. Bhargava", 2017, 69.90); 
 
 
 echo "Livro 1:\n"; 
